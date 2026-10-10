@@ -30,4 +30,4 @@ Every line in the file is loaded into each session, so anything Claude could wor
 - `claude --version` runs (2.1.290).
 - `/permissions` in a fresh session shows the allow, ask and deny rules above.
 - Asked "How do I run the tests here?" in a fresh session, Claude answered from `CLAUDE.md` without any explanation from me.
-- `/memory`: in the VS Code extension this opens the auto-memory panel, which does not list `CLAUDE.md`.
+- `/memory` in a fresh terminal session shows `CLAUDE.md` loaded. (In the VS Code extension the same command opens the auto-memory panel, which does not list it.)
